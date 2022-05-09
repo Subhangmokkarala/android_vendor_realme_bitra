@@ -15,13 +15,6 @@
 },
 
 {
-  "VendorTag": "com.oplus.feature.videoblur.ultrawide.support",
-  "Type": "Byte",
-  "Count": "1",
-  "Value": "1"
-},
-
-{
   "VendorTag": "com.oplus.high.fps.video.preview.process.by.aps",
   "Type": "Byte",
   "Count": "1",
@@ -128,6 +121,13 @@
 },
 
 {
+  "VendorTag": "com.oplus.tunning.rear.panorama.max.height",
+  "Type": "Int32",
+  "Count": "1",
+  "Value": "1472"
+},
+
+{
   "VendorTag": "com.oplus.tunning.back.portrait.normal.picturesize",
   "Type": "Int32",
   "Count": "2",
@@ -145,7 +145,7 @@
   "VendorTag": "com.oplus.high.picturesize",
   "Type": "Int32",
   "Count": "2",
-  "Value": "9280x6944"
+  "Value": "9248x6936"
 },
 
 {
@@ -401,20 +401,6 @@
 },
 
 {
-  "VendorTag": "com.oplus.feature.tilt.shift.photo.support",
-  "Type": "Byte",
-  "Count": "1",
-  "Value": "1"
-},
-
-{
-  "VendorTag": "com.oplus.feature.tilt.shift.fastvideo.support",
-  "Type": "Byte",
-  "Count": "1",
-  "Value": "1"
-},
-
-{
   "VendorTag": "com.oppo.feature.microscope.support",
   "Type": "Byte",
   "Count": "1",
@@ -635,7 +621,7 @@
   "VendorTag": "com.oplus.feature.super.clear.portrait.support",
   "Type": "Byte",
   "Count": "1",
-  "Value": "1"
+  "Value": "0"
 },
 {
   "VendorTag": "com.oplus.feature.hyper.lapse.support",
@@ -662,7 +648,7 @@
   "VendorTag": "com.oplus.portrait.mode.picture.size.1x",
   "Type": "Int32",
   "Count": "4",
-  "Value": "4608x3456x2304x1728"
+  "Value": "4624x3468x2304x1728"
 },
 
 {
@@ -731,8 +717,8 @@
 {
   "VendorTag": "com.oplus.feature.none.sat.rear.mode",
   "Type": "Int32",
-  "Count": "6",
-  "Value": "common,commonVideo,night,superText,street,tiltShift"
+  "Count": "7",
+  "Value": "common,commonVideo,night,superText,street,tiltShift,tiltShiftFastVide"
 },
 
 {
@@ -970,7 +956,7 @@
   "VendorTag": "com.oplus.street.filter.type.list",
   "Type": "Byte",
   "Count": "9",
-  "Value": "OPLUSR0604.cube.rgb.bin,DL_L_B6.cube.rgb.bin,DL_D_G4.cube.rgb.bin,oplus-r-black-gold-1.1-RGB.CUBE.rgb.bin,oplus-r-cyberpunk-RGB.CUBE.rgb.bin,oplus-r-infra-RGB.CUBE.rgb.bin,interstellar_space.bin,bright_coloured.bin"
+  "Value": "Martin.cube.rgb.bin,OPLUSR0604.cube.rgb.bin,DL_L_B6.cube.rgb.bin,DL_D_G4.cube.rgb.bin,oplus-r-black-gold-1.1-RGB.CUBE.rgb.bin,oplus-r-cyberpunk-RGB.CUBE.rgb.bin,oplus-r-infra-RGB.CUBE.rgb.bin,interstellar_space.bin,bright_coloured.bin"
 },
 
 {
@@ -1033,7 +1019,7 @@
   "VendorTag": "com.oplus.hal.memory.portrait",
   "Type": "Int32",
   "Count": "1",
-  "Value": "1024"
+  "Value": "1100"
 },
 
 {
@@ -1079,10 +1065,31 @@
 },
 
 {
-  "VendorTag": "com.oplus.starry.support",
+  "VendorTag": "com.oplus.athena.support",
   "Type": "Byte",
   "Count": "1",
   "Value": "1"
+},
+
+{
+  "VendorTag": "com.oplus.scenes.force.athena",
+  "Type": "Byte",
+  "Count": "1",
+  "Value": "1"
+},
+
+{
+  "VendorTag": "com.oplus.athena.memory.threshold",
+  "Type": "Byte",
+  "Count": "1",
+  "Value": "3.0"
+},
+
+{
+  "VendorTag": "com.oplus.starry.support",
+  "Type": "Byte",
+  "Count": "1",
+  "Value": "0"
 },
 
 {
@@ -1177,10 +1184,44 @@
 },
 
 {
+  "VendorTag": "com.oplus.quick.jpeg.support",
+  "Type": "Byte",
+  "Count": "1",
+  "Value": "1"
+},
+
+{
   "VendorTag": "com.oplus.capture.max.images",
   "Type": "Byte",
   "Count": "1",
   "Value": "52"
+},
+
+{
+  "VendorTag": "com.oplus.feature.tilt.shift.photo.support",
+  "Type": "Byte",
+  "Count": "1",
+  "Value": "1"
+},
+
+{
+  "VendorTag": "com.oplus.feature.tilt.shift.fastvideo.support",
+  "Type": "Byte",
+  "Count": "1",
+  "Value": "1"
+},
+
+{ "VendorTag": "com.oplus.feature.street.track.ui.support",
+  "Type": "Byte",
+  "Count": "1",
+  "Value": "1"
+},
+
+{
+  "VendorTag": "com.oplus.gesture.detect.in.aps",
+  "Type": "Byte",
+  "Count": "1",
+  "Value": "1"
 },
 
 {
@@ -1191,10 +1232,10 @@
 },
 
 {
-  "VendorTag": "com.oplus.request.zsl.mode",
-  "Type": "Byte",
-  "Count": "1",
-  "Value": "0"
+   "VendorTag": "com.oplus.id.photo.face.skip.frame",
+   "Type": "Int32",
+   "Count": "1",
+   "Value": "5"
 }
 ]
 
