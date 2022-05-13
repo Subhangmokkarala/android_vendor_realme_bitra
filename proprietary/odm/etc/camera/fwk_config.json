@@ -14,6 +14,7 @@
             "com.mt.mtxx.mtxx.sub.preview",
             "com.benqu.wuta.sub.preview",
             "com.huajiao.camera.sub.preview",
+            "com.tencent.funcam.sub.preview",
             "com.mt.mtxx.mtxx.main.preview",
             "com.benqu.wuta.main.preview",
             "com.huajiao.camera.main.preview",
@@ -39,14 +40,20 @@
         ],
         "defaultMaxPreviewWidth": 3216,
         "defaultMaxPreviewHeight": 3216,
-        "previewSizeForAPI1Width": 3168,
-        "previewSizeForAPI1Height": 1440,
+        "previewSizeForAPI1Width": 3268,
+        "previewSizeForAPI1Height": 2440,
         "resolutionFilterForNotAddSizeAPI1": [
-            "4624x3468",
-            "4624x2608",
-            "4624x2080",
             "4608x3456",
-            "2592x1944"
+            "4160x3120",
+            "4160x2340",
+            "4096x2160",
+            "2688x1512",
+            "2592x1944",
+            "2592x1940",
+            "2592x1458",
+            "2592x1232",
+            "2592x1196",
+            "2560x1920"
         ]
     },
     "org.codeaurora.ims": {
@@ -58,9 +65,77 @@
     "vendor.client.pid": {
         "isFreeDomEvictionPackge": true
     },
+    "com.tencent.mm": {
+        "previewSizeForAPI1Width": 1920,
+        "previewSizeForAPI1Height": 1080,
+        "app_enable_rio": true
+    },
     "com.teamtalk.im": {
         "previewSizeForAPI1Width": 3216,
         "previewSizeForAPI1Height": 1440
+    },
+    "com.tencent.zebra": {
+        "previewSizeForAPI1Width": 1920,
+        "previewSizeForAPI1Height": 1080
+    },
+    "com.marykay.vmo.my": {
+        "previewSizeForAPI1Width": 1920,
+        "previewSizeForAPI1Height": 1080
+    },
+    "net.one97.paytm": {
+        "previewSizeForAPI1Width": 1920,
+        "previewSizeForAPI1Height": 1080
+    },
+    "im.thebot.messenger": {
+        "previewSizeForAPI1Width": 1920,
+        "previewSizeForAPI1Height": 1080,
+        "needLimitFpsForAPI1": true
+    },
+    "com.alibaba.android.rimet": {
+        "previewSizeForAPI1Width": 1920,
+        "previewSizeForAPI1Height": 1080
+    },
+    "com.kuaidihelp.posthouse": {
+        "previewSizeForAPI1Width": 1280,
+        "previewSizeForAPI1Height": 720
+    },
+    "com.kufeng.hj.enjoy": {
+        "previewSizeForAPI1Height": 1080
+    },
+    "com.netease.gl": {
+        "previewSizeForAPI1Width": 2160,
+        "previewSizeForAPI1Height": 1080
+    },
+    "com.xpx365.projphoto": {
+        "previewSizeForAPI1Width": 1920,
+        "previewSizeForAPI1Height": 1080
+    },
+    "com.marykay.vmo.my": {
+        "previewSizeForAPI1Width": 1920,
+        "previewSizeForAPI1Height": 1080
+    },
+    "net.one97.paytm": {
+        "previewSizeForAPI1Width": 1920,
+        "previewSizeForAPI1Height": 1080
+    },
+    "im.thebot.messenger": {
+        "previewSizeForAPI1Width": 1920,
+        "previewSizeForAPI1Height": 1080
+    },
+    "com.alibaba.android.rimet": {
+        "previewSizeForAPI1Width": 1920,
+        "previewSizeForAPI1Height": 1080
+    },
+    "com.kufeng.hj.enjoy": {
+        "previewSizeForAPI1Width": 1920,
+        "previewSizeForAPI1Height": 1080
+    },
+    "activity.assure.js.zjspersonnel.jsv3personnel": {
+        "previewSizeForAPI1Width": 1920,
+        "previewSizeForAPI1Height": 1080
+    },
+    "com.tencent.mobileqq": {
+        "app_enable_rio": false
     },
     "com.ss.android.ugc.aweme": {
         "app_enable_rio": true
@@ -82,7 +157,7 @@
     },
     "com.oplus.engineercamera": {
         "resolutionFilterForNotAddSizeAPI1": [
-            "4624x3468",
+            "4608x3456",
             "4160x3120",
             "4160x2340",
             "4096x2160",
@@ -107,6 +182,9 @@
         "limitWidthForSurface": 1920,
         "limitHeightForSurface": 1080,
         "app_enable_rio": true
+    },
+    "com.tencent.wework": {
+        "needLimitFpsForAPI1": true
     },
     "com.skype.raider": {
         "needLimitFpsForAPI1": true
@@ -137,17 +215,11 @@
         "checkToAddPreviewCallbackForAPI1": true
     },
     "autotest.oppo.com.simulatedlivebroadcast": {
-        "thirdPartyAppLimitPicture":true,
-        "thirdPartyAppWidthLimitForCam0API2":4608,
-        "thirdPartyAppHeightLimitForCam0API2":3456,
-        "thirdPartyAppWidthLimitForCam1API2":2400,
-        "thirdPartyAppHeightLimitForCam1API2":1792,
-        "resolutionFilterForNotAddSizeAPI1": [
-            "4624x3468",
-            "4624x2608",
-            "4624x2080",
-            "4608x3456",
-            "2592x1944"
+        "resolutionFilterForNotAddPreviewSizeAPI1": [
+            "4000x1818",
+            "4000x1800",
+            "3840x1644",
+            "3264x1836",
         ]
-    }
+    },
 }
